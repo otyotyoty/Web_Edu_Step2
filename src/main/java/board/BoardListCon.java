@@ -76,13 +76,7 @@ public class BoardListCon extends HttpServlet {
 		RequestDispatcher dis=request.getRequestDispatcher("BoardList.jsp");
 		dis.forward(request, response);
 		
-//		이름			의미				JSP에서 하는 역할
-//		number		글 번호 시작값		번호 컬럼 출력. 게시글 번호 = 전체 글 개수부터 1까지 감소. 항상 최신 글이 가장 큰 번호
-//		count		전체 글 개수		총 글 수, 페이지 계산
-//		currentPage	현재 페이지			페이지 표시
-//		pageSize	페이지당 글 수(10)	페이징 계산
-//		msg			알림 메시지			오류 안내
-//		v			게시글 목록	글 		리스트 출력
+		
 		
 		
 		

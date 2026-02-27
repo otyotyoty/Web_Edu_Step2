@@ -10,7 +10,7 @@ public class BoardDAO {
 
 	// 오라클 접속
 	String url = "jdbc:oracle:thin:@localhost:1521:xe";
-	String user = "member";
+	String user = "system";
 	String pass = "12345";
 
 	Connection con; // 접속 설정

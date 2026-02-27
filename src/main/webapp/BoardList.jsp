@@ -59,10 +59,10 @@
 						<tr height="40">
 							<td width="50" align="left">${number}</td>
 							<td width="300" align="left">
-							<c:if test="${bean.re_step > 1}">
-								<!-- re_step 값으로 들여쓰기 계산 -->
-								<span style="padding-left: ${(bean.re_step - 1) * 25}px;">↳ </span>
-							</c:if> 
+							   <c:if test="${bean.re_level > 0}">
+									<!-- re_level 값에 따라 padding-left 동적 적용 -->
+									<span style="padding-left: ${bean.re_level * 20}px;"></span>
+								</c:if> 
 								<a href="BoardInfoControl.do?num=${bean.num}" style='text-decoration: none'> ${bean.subject}</a></td>
 							<td width="100" align="center">${bean.writer}</td>
 							<td width="150" align="center">${bean.reg_date}</td>

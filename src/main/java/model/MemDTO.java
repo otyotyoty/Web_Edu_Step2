@@ -2,11 +2,13 @@ package model;
 
 public class MemDTO {
 
+	// 멤버 변수=필드=속성
 	private String id;
 	private String pass;
 	private String email;
 	private String tel;
 	private String address;
+	
 	
 	public String getId() {
 		return id;
@@ -40,4 +42,5 @@ public class MemDTO {
 	}
 	
 	
+
 }

@@ -1,18 +1,19 @@
 package model;
 
 public class MemberDTO {
-
-	private String id;
-	private String pass1;
-	private String pass2;
-	private String email;
-	private String gender;
-	private String address;
+	
+	private String id; 
+	private String pass1; 
+	private String pass2; 
+	private String email; 
+	private String gender; 
+	private String address; 
 	private String phone;
-	private String hobby;
+	private String hobby; 
 	private String job;
-	private String age;
+	private String age; 
 	private String info;
+	
 	
 	public String getId() {
 		return id;
@@ -79,8 +80,9 @@ public class MemberDTO {
 	}
 	public void setInfo(String info) {
 		this.info = info;
-	}
+	} 
 	
 	
 	
+
 }
